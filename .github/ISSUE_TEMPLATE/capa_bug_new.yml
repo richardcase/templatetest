@@ -28,7 +28,9 @@ body:
   validations:
     required: false
 - type: markdown
-  value: "## Environment"
+  attributes:
+    value: |
+      ## Environment
 - type: input
   attributes:
     label: Cluster-api-provider-aws version
